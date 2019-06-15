@@ -44,7 +44,9 @@ after_script:
   - git config user.email "1486297824@qq.com"
   - git add .
   - git commit -m "Update GitBook By TravisCI With Build $TRAVIS_BUILD_NUMBER"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  - git remote rm origin
+  - git remote add origin https://b06b850f7aef1259497361d9fbc1c36e2531d4ac@github.com/zColdWater/springlearning.git
+  - git push --force --quiet origin master:master
 
 # 环境变量
 env:
