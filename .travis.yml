@@ -45,7 +45,7 @@ after_script:
   - git add .
   - git commit -m "Update GitBook By TravisCI With Build $TRAVIS_BUILD_NUMBER"
   - git remote rm origin
-  - git remote add origin https://zColdWater:88722408a@github.com/zColdWater/springlearning.git
+  - git remote add origin https://${GH_USER}:${GH_PASSWORD}@github.com/zColdWater/springlearning.git
   - git push --force --quiet origin master:master
 
 # 环境变量
@@ -53,4 +53,3 @@ env:
  global:
    # Github Pages 
    - GH_REF: github.com/zColdWater/springlearning.git
-   - GH_TOKEN: ee8011f6f03829b3b7de54e910ee373d3ea85e4f
