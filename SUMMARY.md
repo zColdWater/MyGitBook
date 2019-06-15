@@ -5,5 +5,3 @@
 * [小程序接口 api](./backend/smartprograme.md)
 * [前端规范](./frontend/README.md)
 * [js规范](./frontend/jsStandard.md)
-
-我就随便写点
