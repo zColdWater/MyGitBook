@@ -45,7 +45,7 @@ after_script:
   - git add .
   - git commit -m "Update GitBook By TravisCI With Build $TRAVIS_BUILD_NUMBER"
   - git remote rm origin
-  - git remote add origin https://b06b850f7aef1259497361d9fbc1c36e2531d4ac@github.com/zColdWater/springlearning.git
+  - git remote add origin https://zColdWater:504d4c702aeb099a1b622e864ba55b66e1f44e06@github.com/zColdWater/springlearning.git
   - git push --force --quiet origin master:master
 
 # 环境变量
