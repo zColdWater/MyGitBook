@@ -50,5 +50,5 @@ after_script:
 env:
  global:
    # Github Pages 
-   - GH_REF: github.com/zColdWater/springlearning
+   - GH_REF: github.com/zColdWater/springlearning.git
    - GH_TOKEN: ee8011f6f03829b3b7de54e910ee373d3ea85e4f
